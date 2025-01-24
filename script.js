@@ -111,4 +111,9 @@ ${e.target.value}
        form.addEventListener("submit", (e)=>{
                 e.preventDefault();
                 alert(`votre nom est: ${user} et votre langage preferé est ${lang}`)
+                if(cgv.checked){
+                    alert("tout est ok")
+                }else{
+                    alert(`veuillez cochez les cgc`)
+                }
         })
