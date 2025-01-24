@@ -1,0 +1,95 @@
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+  min-height: 200vh;
+}
+    .box {
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+    margin: 15px;
+    color:#fff
+    }
+    h2 {
+    color: white;
+    margin-bottom: 10px;
+    }
+    button {
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 23px;
+    margin: 0 5px;
+    border-radius: 7px;
+    }
+    p {
+    color: white;
+    margin-top: 10px;
+  font-size: 23px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 1.4s ease;
+  transform: translateX(-200px);
+  }
+  .show-response {
+  visibility: visible;
+  opacity: 70%;
+  transform: translateX(0);
+  }
+  .question-click {
+  background-color: rgb(255, 170, 0);
+  border: 5px solid rgb(230, 192, 255);
+  }
+
+  /* mousemove */
+
+  .mousemove {
+    height: 50px;
+    width: 50px;
+    z-index: -1;
+   
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border: 1px solid rgb(255, 3, 3);
+    border-radius: 50%;
+    }
+    nav{
+      background-color: rgb(127, 255, 136);
+      height: 80px;
+      position: fixed;
+      top: -100px;
+      width: 100%;
+      z-index: 3;
+      margin-top: -20px;
+      display: flex;
+      align-items: center;
+     transition: .5s ease-in-out;
+      
+      width: 100%;
+    }
+    ul {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-around;
+      }
+      li {
+      list-style: none;
+      color: white;
+      font-size: 25px;
+      cursor: pointer;
+      }
+    nav ul li a{
+      margin-top: 10px;
+      text-decoration: none;
+     
+    }
+
+    form label{
+      color:white;
+    }
+
+    

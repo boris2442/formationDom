@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction au DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- devtools -->
+<div class="click-event box">
+    <h2>Quelle est la capitale de la Suise ?</h2>
+    <button id="btn-1">Berne</button>
+    <button id="btn-2">Zurich</button>
+    <p>La bonne reponse est : Berne</p>
+</div>
+
+<!-- //mouvement de la souris -->
+
+<div class="mousemove"></div>
+    <div class="keydown box"></div>
+    
+        <h2>vous appuyez sur la touche</h2>
+        <span id="key"></span>
+    </div>
+
+
+<nav>
+    <ul>
+        <li>
+            <a href="#">Accueil</a>
+        </li>
+        <li>
+            <a href="#">Apropos</a>
+        </li>
+        <li>
+            <a href="#">Services</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Formulaire -->
+<form action="" class="box">
+    <input type="text" placeholder="Entrez votre nom" name="nom" value="simo"><br><br>
+    <select>
+        <option value="">Selectionnez votre langage favories</option>
+        <option value="Javascript">Javascript</option>
+    <option value="Php">Php</option>
+    <option value="python">python</option>
+    </select><br><br>
+    <input type="checkbox" name="" id="cgv">
+    <label for="cgv">Aceptez les CGV </label> <br><br>
+    <input type="submit" value="Valider">
+    <div></div>
+    </form>
+    <div class="box">
+       username: <div id="userName"></div >
+       langage <div id="langage"></div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
