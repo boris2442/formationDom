@@ -152,9 +152,11 @@ ${e.target.value}
         })
 
 
-        //window
+        //1window
 
         console.log(window.innerWidth);
         
         console.log(window.innerHeight);
-        console.log(window)
+        console.log(window);
+
+        console.log(window.document.title)
