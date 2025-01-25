@@ -160,3 +160,7 @@ ${e.target.value}
         console.log(window);
 
         console.log(window.document.title)
+
+        //3 Navigator
+
+        console.log(navigator.userAgent);
