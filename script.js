@@ -124,4 +124,12 @@ ${e.target.value}
             console.log("page entierement chargé");
         }
 
-        window.addEventListener("load", loadRessorce )
+        window.addEventListener("load", loadRessorce );
+        image.addEventListener("load", ()=>{
+            console.log("page charger")
+        })
+
+
+        document.getElementById("input").addEventListener("blur", ()=>{
+            this.style.backgroundcolor="green"
+        })
