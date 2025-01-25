@@ -159,8 +159,11 @@ ${e.target.value}
         console.log(window.innerHeight);
         console.log(window);
 
+
+        //
         console.log(window.document.title)
 
         //3 Navigator
 
         console.log(navigator.userAgent);
+        console.log(navigator.language);
