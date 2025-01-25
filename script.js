@@ -117,3 +117,11 @@ ${e.target.value}
                     alert(`veuillez cochez les cgc`)
                 }
         })
+
+        const image=document.getElementById("image");
+
+        function loadRessorce(){
+            console.log("page entierement chargé");
+        }
+
+        window.addEventListener("load", loadRessorce )
