@@ -143,9 +143,10 @@ ${e.target.value}
 
         const boxes=document.querySelectorAll(".box");
 
-
+console.log(boxes)
         boxes.forEach((box)=>{
             box.addEventListener("click", ()=>{
-                console.log(e.target)
+                console.log(e.target);
+                e.target.style.transform="scale(0.5)"
             })
         })
