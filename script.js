@@ -171,7 +171,7 @@ console.log(history.length);//nombre de page;
 
 // history.back();
 
-//screen:information su l'ecran de l'utilisateur
+//7screen:information su l'ecran de l'utilisateur
 
 console.log(screen.width);
 console.log(screen.height)//hauteur de l'ecran avec la barre de tache
@@ -180,3 +180,11 @@ console.log(screen.height)//hauteur de l'ecran avec la barre de tache
 console.log(screen.availHeight)//hauteur disponible sans la barre de taches
 
 console.log(screen.availWidth)
+
+
+//methodes pratiques du dom;
+
+// alert()//
+
+//confirm
+//prompt
