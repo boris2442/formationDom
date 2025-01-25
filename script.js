@@ -139,3 +139,13 @@ ${e.target.value}
         inputNom.addEventListener("focus", function (){
           this.classList.add("green")
         })
+
+
+        const boxes=document.querySelectorAll(".box");
+
+
+        boxes.forEach((box)=>{
+            box.addEventListener("click", ()=>{
+                console.log(e.target)
+            })
+        })
