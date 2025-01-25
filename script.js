@@ -188,3 +188,15 @@ console.log(screen.availWidth)
 
 //confirm
 //prompt
+
+
+//temporisation
+
+//set timeout:execute cettte fonction apres un delais
+
+setTimeout(()=>{
+  console.log("hello. comment vous allez!")
+}, 3000)
+
+
+// setInterval
