@@ -170,4 +170,4 @@ ${e.target.value}
 
         //4.information de l'url de la page
 
-        console.log(location.href)
+        console.log(Location.href)
