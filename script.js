@@ -195,8 +195,12 @@ console.log(screen.availWidth)
 //set timeout:execute cettte fonction apres un delais
 
 setTimeout(()=>{
-  console.log("hello. comment vous allez!")
+  // console.log("hello. comment vous allez!")
 }, 3000)
 
 
-// setInterval
+// setInterval:excecute la fonction toutes les n secondes
+
+setInterval(() => {
+  // console.log("affiche bonjour toutes les 1 secondes")
+}, 1000);
