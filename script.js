@@ -175,4 +175,5 @@ ${e.target.value}
         console.log(location.hostname)//hostname/127.0.0.1
         console.log(location.pathname)//pathname/index.html
         
-        con
+        console.log(history.back());
+        console.log(history.)
