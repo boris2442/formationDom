@@ -5,7 +5,7 @@ const response=document.querySelector("p")
 
 btn1.addEventListener("click", () => {
   // Code à exécuter lorsque btn1 est cliqué
-  Console.log( "click sur le bouton") ;
+//   Console.log( "click sur le bouton") ;
   });
 
   questionContainer.addEventListener("click", () => {
@@ -27,9 +27,9 @@ btn1.addEventListener("click", () => {
 
         //mousemove
        const mousemove=document.querySelector(".mousemove");
-       console.log(mousemove)
+    //    console.log(mousemove)
         window.addEventListener("mousemove", (e)=>{
-            console.log(e);
+            // console.log(e);
                 mousemove.style.left=e.pageX + "px";
                 mousemove.style.top=e.pageY + "px";
             
@@ -45,7 +45,7 @@ btn1.addEventListener("click", () => {
         });
 
         window.addEventListener("mouseenter", (e)=>{
-            console.log(e)
+            // console.log(e)
         })
 
         questionContainer.addEventListener("mouseout", ()=>{
@@ -59,9 +59,9 @@ btn1.addEventListener("click", () => {
         // keydown event
 
         const keydownContainer=document.querySelector(".keydown");
-        console.log(keydownContainer);
+        // console.log(keydownContainer);
         document.addEventListener("keydown", (e)=>{
-            console.log(e);
+            // console.log(e);
             
         keydownContainer.textContent=e.key;
         if(e.key==="j"){
@@ -75,7 +75,7 @@ btn1.addEventListener("click", () => {
 
 
         const nav=document.querySelector("nav");
-        console.log(nav);
+        // console.log(nav);
 
         window.addEventListener("scroll", ()=>{
             if(window.scrollY>200){
@@ -87,20 +87,20 @@ btn1.addEventListener("click", () => {
 
         const form=document.querySelector("form")
         const formInput=document.querySelector("input[type='text']");
-        console.log(formInput);
+        // console.log(formInput);
         const inputSelect=document.querySelector("select");
         const userName=document.querySelector("#userName");
         const langage=document.querySelector("#langage");
         let user;
         let lang
         formInput.addEventListener("input", (e)=>{
-console.log(e.target.value)
+// console.log(e.target.value)
 userName.textContent=e.target.value
 user=e.target.value
         })
 
         inputSelect.addEventListener("input", (e)=>{
-console.log(e.target.value)
+// console.log(e.target.value)
  lang=e.target.value
 langage.textContent=e.target.value
 langage.innerHTML=`<div style="color:red">
@@ -121,7 +121,7 @@ ${e.target.value}
         const image=document.getElementById("image");
 
         function loadRessorce(){
-            console.log("page entierement chargé");
+            // console.log("page entierement chargé");
         }
 
         window.addEventListener("load", loadRessorce );
@@ -143,10 +143,18 @@ ${e.target.value}
 
         const boxes=document.querySelectorAll(".box");
 
-console.log(boxes)
+// console.log(boxes)
         boxes.forEach((box)=>{
             box.addEventListener("click", ()=>{
-                console.log(e.target);
+                // console.log(e.target);
                 e.target.style.transform="scale(0.5)"
             })
         })
+
+
+        //window
+
+        console.log(window.innerWidth);
+        
+        console.log(window.innerHeight);
+        console.log(window)
