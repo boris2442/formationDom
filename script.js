@@ -154,16 +154,20 @@ ${e.target.value}
 
         //1window
 
-        console.log(window.innerWidth);
+        console.log(window.innerWidth);//largeur du navigateur
         
         console.log(window.innerHeight);
         console.log(window);
 
 
         //
-        console.log(window.document.title)
+        console.log(window.document.title)//titre de notre pahe web
 
         //3 Navigator
 
-        console.log(navigator.userAgent);
-        console.log(navigator.language);
+        console.log(navigator.userAgent);//version du navigateur
+        console.log(navigator.language);//langue utiliser pas le navigateur
+
+        //4.information de l'url de la page
+
+        console.log(location.href)
