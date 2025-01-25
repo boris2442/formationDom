@@ -126,10 +126,16 @@ ${e.target.value}
 
         window.addEventListener("load", loadRessorce );
         image.addEventListener("load", ()=>{
-            console.log("page charger")
+         
         })
 
 
-        document.getElementById("input").addEventListener("blur", ()=>{
+        document.getElementById("input").addEventListener("blur", function (){
             this.style.backgroundcolor="green"
+        });
+
+
+        const inputNom=document.getElementById("nom")
+        inputNom.addEventListener("focus", function (){
+          this.classList.add("green")
         })
