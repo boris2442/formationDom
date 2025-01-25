@@ -170,4 +170,9 @@ ${e.target.value}
 
         //4.information de l'url de la page
 
-        console.log(Location.href)
+        console.log(location.href)//hostname
+
+        console.log(location.hostname)//hostname/127.0.0.1
+        console.log(location.pathname)//pathname/index.html
+        
+        con
